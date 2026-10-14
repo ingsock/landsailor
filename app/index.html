@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Landsailor</title>
+<style>
+  :root { color-scheme: dark; }
+  html, body { margin: 0; height: 100%; background: #050608; color: #c9ced8; font: 12px/1.4 ui-monospace, Consolas, monospace; }
+  #wrap { position: absolute; inset: 0 0 46px 0; display: flex; align-items: center; justify-content: center; }
+  canvas { max-width: 100%; max-height: 100%; aspect-ratio: 16 / 9; background: #000; }
+  #bar { position: absolute; left: 0; right: 0; bottom: 0; height: 46px; display: flex; gap: 10px; align-items: center; padding: 0 12px; box-sizing: border-box; background: #0b0d12; }
+  #scrub { flex: 1; }
+  button { background: #161a22; color: #c9ced8; border: 1px solid #2a3040; padding: 4px 10px; border-radius: 3px; cursor: pointer; }
+  #info { min-width: 360px; white-space: nowrap; overflow: hidden; }
+  body.hide #bar { display: none; } body.hide #wrap { inset: 0; }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="c"></canvas></div>
+<div id="bar">
+  <button id="play">play</button>
+  <input id="scrub" type="range" min="0" max="225.5" step="0.001" value="0" />
+  <span id="info"></span>
+</div>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>

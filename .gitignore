@@ -1,0 +1,15 @@
+# renders and drafts (the film is 337 MB, over GitHub's 100 MB file limit); only the thumbnail is kept
+out/*
+!out/thumbnail_1280.jpg
+# the recording, its separated stems and alignment intermediates: Vienna Teng's, not ours to publish
+build/
+media/audio/
+# the full lyric text with its word timings (copyrighted lyrics)
+data/lyrics.json
+# tooling
+app/node_modules/
+app/dist/
+__pycache__/
+*.pyc
+# per-tile caches of the OpenStreetMap fetch (the merged file is kept)
+media/raw/osm/.*.tile*.json

@@ -1,0 +1,71 @@
+nasa/BlackMarble_2016_3km_gray.jpg
+  Title    Earth at Night (Black Marble) 2016, grayscale, 13500x6750
+  Author   NASA Earth Observatory (Joshua Stevens), Suomi NPP VIIRS data (Miguel Roman, NASA GSFC)
+  Source   https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/144000/144897/BlackMarble_2016_3km_gray.jpg
+  Licence  Public domain (NASA)
+  SHA-1    e580163df98fbe9d11e2582f63e373ef7648976a
+  Fetched  2026-10-14
+  Changed  see the film's README (processed by tools in analysis/)
+
+naturalearth/ne_110m_admin_0_countries.geojson
+  Title    Natural Earth 1:110m admin 0 countries
+  Author   Natural Earth
+  Source   https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson
+  Licence  Public domain
+  SHA-1    960e31f7dc6a6720d1139e1c82165a2d5e2e98e7
+  Fetched  2026-10-14
+  Changed  see the film's README (processed by tools in analysis/)
+
+naturalearth/ne_50m_admin_0_countries.geojson
+  Title    Natural Earth 1:50m admin 0 countries
+  Author   Natural Earth
+  Source   https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson
+  Licence  Public domain
+  SHA-1    fc0928be6e7fdab3cf2b8e222f0e499209132d6e
+  Fetched  2026-10-14
+  Changed  see the film's README (processed by tools in analysis/)
+
+naturalearth/ne_10m_populated_places_simple.geojson
+  Title    Natural Earth 1:10m populated places (simple)
+  Author   Natural Earth
+  Source   https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_populated_places_simple.geojson
+  Licence  Public domain
+  SHA-1    37ecbee7a4f3d32e39927cad7794cd5c7366f529
+  Fetched  2026-10-14
+  Changed  see the film's README (processed by tools in analysis/)
+
+naturalearth/ne_50m_urban_areas.geojson
+  Title    Natural Earth 1:50m urban areas
+  Author   Natural Earth
+  Source   https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_urban_areas.geojson
+  Licence  Public domain
+  SHA-1    0aa1d0cdd8f1142d5a737740fd5e6ad54a37aed5
+  Fetched  2026-10-14
+  Changed  see the film's README (processed by tools in analysis/)
+
+naturalearth/ne_50m_coastline.geojson
+  Title    Natural Earth 1:50m coastline
+  Author   Natural Earth
+  Source   https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_coastline.geojson
+  Licence  Public domain
+  SHA-1    11a7dd0cebbe6990cdcbb8d3ad8ffca789bd0f5f
+  Fetched  2026-10-14
+  Changed  see the film's README (processed by tools in analysis/)
+
+openflights/airports.dat
+  Title    OpenFlights airports database
+  Author   OpenFlights.org contributors
+  Source   https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat
+  Licence  Open Database License (ODbL) 1.0: credit OpenFlights.org
+  SHA-1    1503ff7b2a9d7a8a5175e77dfb8c1777128c54bd
+  Fetched  2026-10-14
+  Changed  see the film's README (processed by tools in analysis/)
+
+openflights/routes.dat
+  Title    OpenFlights routes database (2014)
+  Author   OpenFlights.org contributors
+  Source   https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat
+  Licence  Open Database License (ODbL) 1.0: credit OpenFlights.org
+  SHA-1    d5b01b5c2ff323f8cefb6922a80c8dc9bd2414bd
+  Fetched  2026-10-14
+  Changed  see the film's README (processed by tools in analysis/)

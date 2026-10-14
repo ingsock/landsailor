@@ -1,0 +1,56 @@
+osm/chi_major.json
+  Title    OpenStreetMap ways: way["highway"~"^(motorway|trunk|primary|secondary|tertiary)(_link)?$"] in (41.62, -88.0, 42.1, -87.5)
+  Author   OpenStreetMap contributors
+  Source   https://overpass-api.de/api/interpreter query: [out:json][timeout:240];(way["highway"~"^(motorway|trunk|primary|secondary|tertiary)(_link)?$"](41.62,-88.0,42.1,-87.5););out geom;
+  Licence  Open Database License (ODbL) 1.0: credit (c) OpenStreetMap contributors
+  SHA-1    cf32230c77813133c1540b2d7347a77fa8dade5e
+  Fetched  2026-10-14
+
+osm/chi_streets.json
+  Title    OpenStreetMap ways: way["highway"~"^(residential|unclassified|living_street|service)$"]["service"!~"."] in (41.8, -87.76, 41.97, -87.59)
+  Author   OpenStreetMap contributors
+  Source   https://overpass.kumi.systems/api/interpreter query: [out:json][timeout:240];(way["highway"~"^(residential|unclassified|living_street|service)$"]["service"!~"."](41.8,-87.76,41.97,-87.59););out geom;
+  Licence  Open Database License (ODbL) 1.0: credit (c) OpenStreetMap contributors
+  SHA-1    51e0cd6a58adea97bcb462bd158a42efa7f1eff4
+  Fetched  2026-10-14
+
+osm/ord_runways.json
+  Title    OpenStreetMap ways: way["aeroway"~"^(runway|taxiway)$"] in (41.955, -87.955, 42.01, -87.86)
+  Author   OpenStreetMap contributors
+  Source   https://overpass.kumi.systems/api/interpreter query: [out:json][timeout:240];(way["aeroway"~"^(runway|taxiway)$"](41.955,-87.955,42.01,-87.86););out geom;
+  Licence  Open Database License (ODbL) 1.0: credit (c) OpenStreetMap contributors
+  SHA-1    fa9b1f66bd434ba48afab89b287a5c5fe65c2b57
+  Fetched  2026-10-14
+
+osm/chi_rail.json
+  Title    OpenStreetMap ways: way["railway"~"^(rail|subway|light_rail)$"] in (41.62, -88.0, 42.1, -87.5)
+  Author   OpenStreetMap contributors
+  Source   https://overpass.private.coffee/api/interpreter query: [out:json][timeout:240];(way["railway"~"^(rail|subway|light_rail)$"](41.62,-88.0,42.1,-87.5););out geom;
+  Licence  Open Database License (ODbL) 1.0: credit (c) OpenStreetMap contributors
+  SHA-1    dc18e4766d1686a056ef413c5536c020a578e7d5
+  Fetched  2026-10-14
+
+osm/chi_water.json
+  Title    OpenStreetMap ways: way["natural"="coastline"];way["waterway"~"^(river|canal)$"] in (41.62, -88.0, 42.1, -87.5)
+  Author   OpenStreetMap contributors
+  Source   https://overpass.kumi.systems/api/interpreter query: [out:json][timeout:240];(way["natural"="coastline"](41.62,-88.0,42.1,-87.5);way["waterway"~"^(river|canal)$"](41.62,-88.0,42.1,-87.5););out geom;
+  Licence  Open Database License (ODbL) 1.0: credit (c) OpenStreetMap contributors
+  SHA-1    2acc8e4a24ea088d9de6ec5cee70c49fd5567114
+  Fetched  2026-10-14
+
+osm/chi_power.json
+  Title    OpenStreetMap ways: way["power"~"^(line|minor_line|cable)$"];way["power"="substation"] in (41.62, -88.0, 42.1, -87.5)
+  Author   OpenStreetMap contributors
+  Source   https://overpass.kumi.systems/api/interpreter query: [out:json][timeout:240];(way["power"~"^(line|minor_line|cable)$"](41.62,-88.0,42.1,-87.5);way["power"="substation"](41.62,-88.0,42.1,-87.5););out geom;
+  Licence  Open Database License (ODbL) 1.0: credit (c) OpenStreetMap contributors
+  SHA-1    46a04456ef6664897ab6c7c99f57b5e6ded3e04e
+  Fetched  2026-10-14
+
+osm/chi_loop_buildings.json
+  Title    OpenStreetMap ways: way["building"]["height"];way["building"]["building:levels"];way["building:part"]["height"] in (41.862, -87.652, 41.905, -87.608), fetched in 2x2 tiles and merged
+  Author   OpenStreetMap contributors
+  Source   https://overpass-api.de/api/interpreter, https://overpass.private.coffee/api/interpreter; queries: [out:json][timeout:240];(way["building"]["height"](41.86200,-87.65200,41.88350,-87.63000);way["building"]["building:levels"](41.86200,-87.65200,41.88350,-87.63000);way["building:part"]["height"](41.86200,-87.65200,41.88350,-87.63000););out geom; | [out:json][timeout:240];(way["building"]["height"](41.86200,-87.63000,41.88350,-87.60800);way["building"]["building:levels"](41.86200,-87.63000,41.88350,-87.60800);way["building:part"]["height"](41.86200,-87.63000,41.88350,-87.60800););out geom; | [out:json][timeout:240];(way["building"]["height"](41.88350,-87.65200,41.90500,-87.63000);way["building"]["building:levels"](41.88350,-87.65200,41.90500,-87.63000);way["building:part"]["height"](41.88350,-87.65200,41.90500,-87.63000););out geom; | [out:json][timeout:240];(way["building"]["height"](41.88350,-87.63000,41.90500,-87.60800);way["building"]["building:levels"](41.88350,-87.63000,41.90500,-87.60800);way["building:part"]["height"](41.88350,-87.63000,41.90500,-87.60800););out geom;
+  Licence  Open Database License (ODbL) 1.0: credit (c) OpenStreetMap contributors
+  SHA-1    89d5ab9e78c9dcff352bf59775029b1ad4edf365
+  Fetched  2026-10-14
+
